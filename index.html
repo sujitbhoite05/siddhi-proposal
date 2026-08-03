@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#160f1d" />
+    <title>For Siddhi — Always</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="song.css" />
+    <link rel="stylesheet" href="entrance.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <div class="curtain" id="curtain">
+      <button class="curtain__enter" id="enterButton" type="button" aria-label="Open Siddhi's proposal website">
+        <span class="curtain__name">Siddhi</span><span class="curtain__prompt">Tap to open my heart <b>♥</b></span>
+      </button>
+    </div>
+    <audio id="bgMusic" src="assets/perfect.mp3" preload="auto" loop></audio>
+    <canvas id="fireworks" aria-hidden="true"></canvas>
+    <div class="petals" id="petals" aria-hidden="true"></div>
+
+    <header class="nav">
+      <a class="nav__mark" href="#top" aria-label="Back to top">S<span>∞</span>S</a>
+      <p>Our little universe</p>
+      <a class="music-toggle" href="#our-song" aria-label="Go to our song">
+        <span class="music-toggle__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>Our song</span>
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <p class="eyebrow reveal">A love letter, made for one</p>
+        <h1 class="hero__title reveal">For <em>Siddhi</em>,<br />my favourite<br />kind of <span>forever.</span></h1>
+        <p class="hero__sub reveal">A small corner of the internet, filled with every big feeling I have for you.</p>
+        <a class="scroll-cue reveal" href="#letter">begin the story <span>↓</span></a>
+        <div class="hero__orb orb-one"></div><div class="hero__orb orb-two"></div>
+      </section>
+
+      <section class="letter section" id="letter">
+        <div class="section-number reveal">01 — a note from my heart</div>
+        <article class="letter-card reveal">
+          <div class="wax-seal">S</div>
+          <p class="script">My dearest Siddhi,</p>
+          <p>Somehow, ordinary days became extraordinary the moment they began to include you. Your laugh is my favourite sound, your presence is my calm, and every memory with you feels like a page I never want to turn away from.</p>
+          <p>I don't just love the beautiful moments. I love the silly ones, the quiet ones, the unfinished conversations, and the way life feels more like home beside you.</p>
+          <p class="letter-card__close">So I made you this — a little proof that, in a world full of choices, I would still choose you. Every single time.</p>
+          <p class="signature">With all my love,<br />Yours</p>
+        </article>
+      </section>
+
+      <section class="song section" id="our-song">
+        <p class="eyebrow reveal">02 — our song</p>
+        <div class="song__layout reveal">
+          <div><h2>Every love story<br />deserves a <em>soundtrack.</em></h2><p>“Perfect” begins the moment you open this letter — because it will always make me think of you.</p></div>
+          <div class="song-card"><span class="song-card__note">♫</span><p>Perfect</p><small>Ed Sheeran</small><span class="song-card__playing">Playing in the background</span></div>
+        </div>
+      </section>
+
+      <section class="promise section">
+        <div class="promise__glow"></div>
+        <p class="eyebrow reveal">03 — the things I promise</p>
+        <div class="promises reveal">
+          <p><span>01</span> To make room for your dreams.</p><p><span>02</span> To laugh with you, especially when life is loud.</p><p><span>03</span> To hold your hand through every season.</p><p><span>04</span> To keep choosing us.</p>
+        </div>
+      </section>
+
+      <section class="proposal section" id="proposal">
+        <div class="ring-scene reveal" id="ringScene" aria-hidden="true"><div class="ring-light"></div><div class="ring"><div class="ring__gem"></div><div class="ring__band"></div></div></div>
+        <p class="eyebrow reveal">04 — the question that matters most</p>
+        <h2 class="proposal__question reveal">Siddhi, will you make<br />this <em>forever</em> official?</h2>
+        <p class="proposal__sub reveal">Will you be mine, today and all the tomorrows after?</p>
+        <div class="proposal__actions reveal" id="proposalActions"><button class="button button--yes" id="yesButton" type="button">Yes, always <span>♥</span></button><button class="button button--no" id="noButton" type="button">I need a moment</button></div>
+        <p class="no-note" id="noNote" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <section class="celebration" id="celebration" aria-live="polite" aria-hidden="true">
+      <div class="celebration__content"><p class="eyebrow">The best answer</p><h2>She said <em>yes.</em></h2><p>Here’s to a lifetime of little moments, grand adventures, and choosing each other.</p><div class="celebration__heart">♥</div></div>
+    </section>
+    <footer>Made with devotion for Siddhi <span>✦</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
